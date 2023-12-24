@@ -37,17 +37,17 @@ function makeSound(key) {
         break;
   
       case "j":
-        var snare = new Audio('snare.mp3');
+        var snare = new Audio('crash.mp3');
         snare.play();
         break;
   
       case "k":
-        var crash = new Audio('crash.mp3');
+        var crash = new Audio('kick-bass.mp3');
         crash.play();
         break;
   
       case "l":
-        var kick = new Audio('kick-bass.mp3');
+        var kick = new Audio('snare.mp3');
         kick.play();
         break;
   
